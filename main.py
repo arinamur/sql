@@ -27,7 +27,7 @@ def main():
         db_sess = db_session.create_session()
         db_sess.add(user)
         db_sess.commit()
-    # app.run()
+    app.run()
 
 
 if __name__ == '__main__':
